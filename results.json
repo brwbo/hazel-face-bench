@@ -1,0 +1,50 @@
+{
+ "SFace": {
+  "genuine_mean": 0.833,
+  "genuine_p5": 0.638,
+  "impostor_mean": 0.061,
+  "impostor_p95": 0.22,
+  "impostor_max": 0.39,
+  "dprime": 8.1,
+  "eer": 0.0013,
+  "eer_threshold": 0.35,
+  "best_threshold": 0.378,
+  "far_at_best": 0.0001,
+  "frr_at_best": 0.0019,
+  "ms_per_face": 8.9,
+  "n_genuine": 3087,
+  "n_impostor": 16832
+ },
+ "ArcFace": {
+  "genuine_mean": 0.773,
+  "genuine_p5": 0.507,
+  "impostor_mean": 0.091,
+  "impostor_p95": 0.221,
+  "impostor_max": 0.666,
+  "dprime": 6.15,
+  "eer": 0.0112,
+  "eer_threshold": 0.272,
+  "best_threshold": 0.318,
+  "far_at_best": 0.003,
+  "frr_at_best": 0.0149,
+  "ms_per_face": 24.3,
+  "n_genuine": 3087,
+  "n_impostor": 16832
+ },
+ "Facenet512": {
+  "genuine_mean": 0.831,
+  "genuine_p5": 0.564,
+  "impostor_mean": 0.001,
+  "impostor_p95": 0.236,
+  "impostor_max": 0.545,
+  "dprime": 6.61,
+  "eer": 0.0072,
+  "eer_threshold": 0.406,
+  "best_threshold": 0.392,
+  "far_at_best": 0.0087,
+  "frr_at_best": 0.0055,
+  "ms_per_face": 17.9,
+  "n_genuine": 3087,
+  "n_impostor": 16832
+ }
+}
